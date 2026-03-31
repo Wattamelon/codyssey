@@ -118,7 +118,9 @@ Dockerfile 기반 웹 서버 컨테이너 :
 
 
     2. docker 볼륨 : 생성 , 연결 , 검증 명령 + 컨테이너 삭제 전 후. 비교
-    (스크린샷 폴더)
+[볼륨영속성 증거](docs/09_볼륨_영속성.md)
 
 Git 설정 및 Github / VSCode 연동 증거 : 
 1. 깃 사용자 정보 , 기본 브랜치 설정 후 , vscode 에서 깃허브 로그인 및 저장소 연동 완료
+![git](img/git.png)
+![git_log](img/git_log.png)<br>
