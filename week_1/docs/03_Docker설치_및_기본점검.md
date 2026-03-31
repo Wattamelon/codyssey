@@ -1,9 +1,11 @@
 1. 도커 버전 확인
+```bash
     (base) melon@munseongon-ui-MacBookAir codyssey % docker --version
     Docker version 28.5.2, build ecc6942
-    (base) melon@munseongon-ui-MacBookAir codyssey % 
+    (base) melon@munseongon-ui-MacBookAir codyssey % ```
 
 2 도커 데몬 동작 여부 확인
+```bash
     (base) melon@munseongon-ui-MacBookAir codyssey % docker info
     Client:
     Version:    28.5.2

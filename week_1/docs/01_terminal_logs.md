@@ -1,5 +1,6 @@
 
-터미널 조작 로그 : 
+```bash 
+    터미널 조작 로그 : 
     1. 현재 위치 확인 
     (base) melon@munseongon-ui-MacBookAir codyssey % pwd  
     /Users/melon/Desktop/코디세이/codyssey
