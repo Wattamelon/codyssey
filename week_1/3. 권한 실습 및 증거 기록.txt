@@ -1,0 +1,40 @@
+1. 권환 확인 명령어
+    (base) melon@munseongon-ui-MacBookAir codyssey % touch tmp.txt
+    (base) melon@munseongon-ui-MacBookAir codyssey % vim tmp.txt 
+    (base) melon@munseongon-ui-MacBookAir codyssey % cat tmp.txt 
+    hello!
+
+    (base) melon@munseongon-ui-MacBookAir codyssey % ls -l 
+    total 40
+    -rw-r--r--  1 melon  staff  1064  3 31 11:52 README.md
+    -rw-r--r--  1 melon  staff    13  3 31 14:11 empty.txt
+    -rw-r--r--  1 melon  staff     8  3 31 14:22 tmp.txt
+    -rw-r--r--  1 melon  staff     0  3 31 14:20 권한 실습 및 증거 기록.txt
+    -rw-r--r--  1 melon  staff     0  3 31 11:34 정리.md
+    -rw-r--r--  1 melon  staff  7117  3 31 14:13 터미널_조작_로그.txt
+    (base) melon@munseongon-ui-MacBookAir codyssey % mkdir tmp_dir
+    (base) melon@munseongon-ui-MacBookAir codyssey % ls -l
+    total 40
+    -rw-r--r--  1 melon  staff  1064  3 31 11:52 README.md
+    -rw-r--r--  1 melon  staff    13  3 31 14:11 empty.txt
+    -rw-r--r--  1 melon  staff     8  3 31 14:22 tmp.txt
+    drwxr-xr-x  2 melon  staff    64  3 31 14:23 tmp_dir
+    -rw-r--r--  1 melon  staff     0  3 31 14:20 권한 실습 및 증거 기록.txt
+    -rw-r--r--  1 melon  staff     0  3 31 11:34 정리.md
+    -rw-r--r--  1 melon  staff  7117  3 31 14:13 터미널_조작_로그.txt
+    (base) melon@munseongon-ui-MacBookAir codyssey % 
+
+2. 권한 변경 명령어
+
+    (base) melon@munseongon-ui-MacBookAir codyssey % chmod 755 tmp.txt 
+    (base) melon@munseongon-ui-MacBookAir codyssey % chmod 777 tmp_dir 
+    (base) melon@munseongon-ui-MacBookAir codyssey % ls -l
+    total 40
+    -rw-r--r--  1 melon  staff  1064  3 31 11:52 README.md
+    -rw-r--r--  1 melon  staff    13  3 31 14:11 empty.txt
+    -rwxr-xr-x  1 melon  staff     8  3 31 14:22 tmp.txt
+    drwxrwxrwx  2 melon  staff    64  3 31 14:23 tmp_dir
+    -rw-r--r--  1 melon  staff     0  3 31 14:20 권한 실습 및 증거 기록.txt
+    -rw-r--r--  1 melon  staff     0  3 31 11:34 정리.md
+    -rw-r--r--  1 melon  staff  7117  3 31 14:13 터미널_조작_로그.txt
+    (base) melon@munseongon-ui-MacBookAir codyssey % 
