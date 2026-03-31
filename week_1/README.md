@@ -1,11 +1,11 @@
 프로젝트 개요 : 도커 및 터미널을 이용한 워크스테이션 구축
 
-실행 환경 : 
-    1. OS : macOS Sonoma 14.4.1
-    2. shell : zsh
-    3. 터미널 : vscode
-    4. Docker : 28.5.2
-    5. git : git version 2.45.1
+실행 환경 : <br>
+    1. OS : macOS Sonoma 14.4.1 <br>
+    2. shell : zsh <br>
+    3. 터미널 : vscode <br>
+    4. Docker : 28.5.2 <br>
+    5. git : git version 2.45.1 <br>
 
 수행 항목 체크리스트 : ㅇ?
 
