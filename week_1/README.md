@@ -83,13 +83,13 @@
     ```
 
 터미널 조작 로그 :
-    pwd ,ls -a , mkdir , ls , cd , cp -r , mv , touch , rm , rmdir , vim , cat 
+    pwd ,ls -a , mkdir , ls , cd , cp -r , mv , touch , rm , rmdir , vim , cat <br>
     [터미널 조작 로그 보기](docs/01_terminal_logs.md) <br>
     [권한실습 및 증거기록](docs/02_권한실습_및_증거기록.md)
 
 Docker 운영 및 검증 로그 : 
  1. docker version , docker info
- 2. dokcer images , docker ps -a , docker logs 
+ 2. dokcer images , docker ps -a , docker logs <br>
  [도커설치 및 기본점검](docs/03_Docker설치_및_기본점검.md) <br>
  [도커 기본운영 및 명령수행](docs/04_도커_기본운영_명령_수행.md)
 
@@ -103,12 +103,12 @@ Dockerfile 기반 웹 서버 컨테이너 :
  ![index.html 실행 결과](img/web.png)
  4. 포트 매핑 접속 성공 증거 (스크린샷 또는 로그)
 [컨테이너 실행 실습](docs/05_컨테이너_실행_실습.md) <br>
-[도커파일 기반 커스텀이미지](docs/06_도커파일기반_커스텀이미지제작.md)
+[도커파일 기반 커스텀이미지](docs/06_도커파일기반_커스텀이미지제작.md)<br>
 
 
 포트 매핑 접속 증거 :
 1. p <host_port>:<container> 실행 후.  주소창 포함 브라우저 접속 화면 (스크린샷 폴더)
-![포트 매핑 접속 증거](img/수정후.png) 
+![포트 매핑 접속 증거](img/수정후.png) <br>
 [포트매핑 접속 증거](docs/07_포트매핑_접속증거.md)
 
 
@@ -116,7 +116,7 @@ Dockerfile 기반 웹 서버 컨테이너 :
 1. 바인드 마운트 : 실행 명령 + 호스트 변경 전 후 비교
 
 ![수정전](img/수정전.png)
-![수정후](img/수정후.png)
+![수정후](img/수정후.png)<br>
 [바운드마운트 증거](docs/08_바운드마운트_증거.md)
 
 
