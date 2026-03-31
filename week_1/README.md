@@ -1,19 +1,17 @@
 프로젝트 개요 : 도커 및 터미널을 이용한 워크스테이션 구축
 
 실행 환경 : 
-1. OS : macOS Sonoma 14.4.1
-2. shell : zsh
-3. 터미널 : vscode
-4. Docker : 28.5.2
-5. git : git version 2.45.1
+    1. OS : macOS Sonoma 14.4.1
+    2. shell : zsh
+    3. 터미널 : vscode
+    4. Docker : 28.5.2
+    5. git : git version 2.45.1
 
 수행 항목 체크리스트 : ㅇ?
 
 검증 방법 : txt 파일 참조 ? 뭐지 ? 
 
 트러블슈팅 : 
-    1. docker logs 실행 오류
-
     ### 트러블슈팅 1 - docker logs 실행 오류
 
     문제:
@@ -51,7 +49,6 @@
     - docker logs는 단독 실행 불가능
     - 반드시 컨테이너 이름 또는 ID 필요
 
-    2. git push 에러 (기존 원격 repo에 readme가 있었음)
     ### 트러블슈팅 2 - GitHub push 거부됨
 
     문제:
@@ -88,40 +85,40 @@
     [권한실습 및 증거기록](docs/02_권한실습_및_증거기록.md)
 
 Docker 운영 및 검증 로그 : 
- 1. docker version , docker info
- 2. dokcer images , docker ps -a , docker logs <br>
- [도커설치 및 기본점검](docs/03_Docker설치_및_기본점검.md) <br>
- [도커 기본운영 및 명령수행](docs/04_도커_기본운영_명령_수행.md)
+    1. docker version , docker info
+    2. dokcer images , docker ps -a , docker logs <br>
+        [도커설치 및 기본점검](docs/03_Docker설치_및_기본점검.md) <br>
+        [도커 기본운영 및 명령수행](docs/04_도커_기본운영_명령_수행.md)
 
 
 
 Dockerfile 기반 웹 서버 컨테이너 :
 
- 1. 웹 서버 소스코드 ( app/index.html )
- 2. Dockerfile
- 3. 빌드 및 실행 명령 결과 로그 
- ![index.html 실행 결과](img/web.png)
- 4. 포트 매핑 접속 성공 증거 (스크린샷 또는 로그)
-[컨테이너 실행 실습](docs/05_컨테이너_실행_실습.md) <br>
-[도커파일 기반 커스텀이미지](docs/06_도커파일기반_커스텀이미지제작.md)<br>
+    1. 웹 서버 소스코드 ( app/index.html )
+    2. Dockerfile
+    3. 빌드 및 실행 명령 결과 로그 
+        ![index.html 실행 결과](img/web.png)
+    4. 포트 매핑 접속 성공 증거 (스크린샷 또는 로그)<br>
+        [컨테이너 실행 실습](docs/05_컨테이너_실행_실습.md) <br>
+        [도커파일 기반 커스텀이미지](docs/06_도커파일기반_커스텀이미지제작.md)<br>
 
 
 포트 매핑 접속 증거 :
-1. p <host_port>:<container> 실행 후.  주소창 포함 브라우저 접속 화면 (스크린샷 폴더)
-![포트 매핑 접속 증거](img/수정후.png) <br>
-[포트매핑 접속 증거](docs/07_포트매핑_접속증거.md)
+    1. p <host_port>:<container> 실행 후.  주소창 포함 브라우저 접속 화면 (스크린샷 폴더)
+    ![포트 매핑 접속 증거](img/수정후.png) <br>
+    [포트매핑 접속 증거](docs/07_포트매핑_접속증거.md)
 
 
 바인드 마운트 반영 + 볼륨 영속성 증거 :
-1. 바인드 마운트 : 실행 명령 + 호스트 변경 전 후 비교
+    1. 바인드 마운트 : 실행 명령 + 호스트 변경 전 후 비교
 
-![수정전](img/수정전.png)
-![수정후](img/수정후.png)<br>
-[바운드마운트 증거](docs/08_바운드마운트_증거.md)
+    ![수정전](img/수정전.png)
+    ![수정후](img/수정후.png)<br>
+    [바운드마운트 증거](docs/08_바운드마운트_증거.md)
 
 
-2. docker 볼륨 : 생성 , 연결 , 검증 명령 + 컨테이너 삭제 전 후. 비교
-(스크린샷 폴더)
+    2. docker 볼륨 : 생성 , 연결 , 검증 명령 + 컨테이너 삭제 전 후. 비교
+    (스크린샷 폴더)
 
 Git 설정 및 Github / VSCode 연동 증거 : 
 1. 깃 사용자 정보 , 기본 브랜치 설정 후 , vscode 에서 깃허브 로그인 및 저장소 연동 완료
