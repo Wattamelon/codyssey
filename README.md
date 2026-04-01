@@ -7,9 +7,17 @@
     4. Docker : 28.5.2 <br>
     5. git : git version 2.45.1 <br>
 
-수행 항목 체크리스트 : ㅇ?
+수행 항목 체크리스트 : 
+    터미널 O
+    권한 O
+    Docker O 
+    Dockerfile O
+    포트 O
+    볼륨 O
+    Git O
+    Github O
 
-검증 방법 : txt 파일 참조 ? 뭐지 ? 
+검증 방법 : 하이퍼링크 참조
 
 트러블슈팅 : 
     ### 트러블슈팅 1 - docker logs 실행 오류
